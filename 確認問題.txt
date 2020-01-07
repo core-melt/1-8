@@ -1,0 +1,27 @@
+問1
+CSSにて、idセレクタで「文字色を赤に設定」の場合と、classセレクタで「文字色を青に設定」の場合とでは、どちらの設定が反映されるでしょうか。
+<p id="red" class="blue">この文字の色は何色になるでしょう</p>
+#red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+A.
+赤
+
+
+問2
+疑似クラスを書く際に使う記号として正しいものは、次のうちどれでしょう。
+　　　1. p/nth-child(n)
+　　　2. p;nth-child(n)
+　　　3. p%nth-child(n)
+　　　4. p:nth-child(n)
+
+A.
+4. p:nth-child(n)
+
+
+
+

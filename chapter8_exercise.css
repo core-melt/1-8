@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cleanfix::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.listbox{
+	width: 960px;
+	margin: 50px auto;
+	list-style: none;
+}
+
+li{
+	list-style: none;
+	padding: 20px;
+}
+
+li:nth-child(odd){
+	background-color: #dcdcdc;
+}
+
+.box{
+	width: 960px;
+	height: 680px;
+	margin: 50px auto;
+}
+.colorbox{
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+.colorbox-marginright{
+	margin-right: 5%;
+}
+
+.colorbox-marginbottom{
+	margin-bottom: 40px;
+}
+
+.orengebox{
+	background-color: #ffa500;
+}
+
+.goldbox{
+	background-color: #ffd700;
+}
+
+
+
